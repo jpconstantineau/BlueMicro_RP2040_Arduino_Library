@@ -25,7 +25,15 @@ trigger_keys_t scanMatrix_R2C(trigger_keys_t activeKeys,  const byte (&rows)[N1]
 }
 
 
+template < size_t N1,  size_t N2>
+void sleep_C2R( const byte (&rows)[N1], const byte (&columns)[N2] ) {
+ 
+}
 
+template < size_t N1,  size_t N2>
+void sleep_R2C( const byte (&rows)[N1], const byte (&columns)[N2] ) {
+  
+}
 
 
 
